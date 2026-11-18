@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate relative Markdown links in repository-owned docs and root guides."""
+"""Validate local Markdown links in repository docs and root guides."""
 from pathlib import Path
 import re
 import sys
@@ -7,7 +7,7 @@ from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = [ROOT / name for name in ("README.md", "CONTRIBUTING.md", "SECURITY.md", "SUPPORT.md", "ROADMAP.md", "CHANGELOG.md")]
-LINK_RE = re.compile(r"!?(?:\[[^\]]*\])\(([^)]+)\)")
+LINK_RE = re.compile(r"!?(?:\[[^\]]*\])\((.*?)\)")
 REF_RE = re.compile(r"^\s*\[[^\]]+\]:\s*(\S+)", re.MULTILINE)
 FENCE_RE = re.compile(r"(?s)^\s*(```+|~~~+).*?^\s*\1\s*$", re.MULTILINE)
 INLINE_RE = re.compile(r"`[^`]*`")
@@ -22,12 +22,11 @@ def files_to_scan():
 def main() -> int:
     errors, checked = [], 0
     for source_path in files_to_scan():
-        text = source_path.read_text(encoding="utf-8")
-        text = FENCE_RE.sub("", text)
+        text = FENCE_RE.sub("", source_path.read_text(encoding="utf-8"))
         text = INLINE_RE.sub("", text)
         for raw in LINK_RE.findall(text) + REF_RE.findall(text):
-            target = raw.strip().split()[0].strip("<>")
-            if "{{" in target or "}}" in target:
+            target = raw.strip().strip("<>")
+            if not target or "{{" in target or "}}" in target:
                 continue
             parsed = urlparse(target)
             if parsed.scheme or target.startswith(("#", "mailto:")):
