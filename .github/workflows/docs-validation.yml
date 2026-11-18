@@ -1,0 +1,46 @@
+name: 📚 HTML assignment documentation validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/docs-validation.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "docs/**"
+      - "scripts/**"
+      - ".github/workflows/docs-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: documentation-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate repository documentation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate required documentation
+        run: python scripts/validate_docs.py
+      - name: Validate local Markdown links
+        run: python scripts/validate_links.py
+      - name: Validate assignment HTML
+        run: python scripts/validate_html.py
+      - name: Validate SVG assets
+        run: python scripts/validate_svg.py
