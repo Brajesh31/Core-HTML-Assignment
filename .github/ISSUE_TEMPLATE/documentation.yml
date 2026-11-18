@@ -1,0 +1,30 @@
+name: "📚 Documentation issue"
+description: Report a missing, inaccurate, or unclear guide.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Documentation path
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Incorrect explanation
+        - Missing page or section
+        - Broken local link
+        - Diagram mismatch
+        - Accessibility/readability
+        - Outdated example
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details and supporting evidence
+    validations:
+      required: true
