@@ -29,3 +29,14 @@ Welcome to the documentation hub for **Core-HTML-Assignment**. The repository co
 ## 🔒 Preservation policy
 
 Original assignment HTML files and existing screenshot images are kept unchanged during documentation/governance enhancement. Validator scripts and documentation are additional repository support.
+
+## 🧠 Additional learning references
+
+- [Learning outcomes](learning-outcomes.md)
+- [Scope and limitations](scope-and-limitations.md)
+- [Validation strategy](validation-strategy.md)
+- [Question 3 navigation flow](architecture/navigation-flow.md)
+- [Existing screenshot catalog](assets/screenshots.md)
+
+## 🧩 Templates
+Use the templates under [docs/templates](templates/README.md) to record test plans, test evidence, accessibility reviews, documentation checks, source-change requests, and screenshot metadata.
