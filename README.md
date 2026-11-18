@@ -142,7 +142,7 @@ The repository already contains screenshots for all eight questions, including t
 |---|---|
 | Q1 | [View screenshot](Assignment_2_Core%20html/screenshot/question1.png) |
 | Q2 | [View screenshot](Assignment_2_Core%20html/screenshot/question2.png) |
-| Q3 | [Screenshot 1](Assignment_2_Core%20html/screenshot/question3/1%20(1).png) · [Screenshot 2](Assignment_2_Core%20html/screenshot/question3/1%20(2).png) · [Screenshot 3](Assignment_2_Core%20html/screenshot/question3/1%20(3).png) |
+| Q3 | [Screenshot 1](Assignment_2_Core%20html/screenshot/question3/1%20(1).png>) · [Screenshot 2](Assignment_2_Core%20html/screenshot/question3/1%20(2).png>) · [Screenshot 3](Assignment_2_Core%20html/screenshot/question3/1%20(3).png>) |
 | Q4 | [View screenshot](Assignment_2_Core%20html/screenshot/question4.png) |
 | Q5 | [View screenshot](Assignment_2_Core%20html/screenshot/question5.png) |
 | Q6 | [View screenshot](Assignment_2_Core%20html/screenshot/question6.png) |
