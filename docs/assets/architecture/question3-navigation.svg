@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+<title id="title">Question 3 navigation flow</title>
+<desc id="desc">Three HTML documents in Question 3 link to one another using relative href paths.</desc>
+<defs><style>.h{font:700 28px Arial;fill:#0f172a}.s{font:700 19px Arial;fill:#0f172a}.p{font:15px Arial;fill:#334155}.n{fill:#ecfeff;stroke:#0891b2;stroke-width:3}.a{stroke:#475569;stroke-width:4;fill:none;marker-end:url(#arrow)}</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#475569"/></marker></defs>
+<rect width="1100" height="520" rx="24" fill="#f8fafc"/>
+<text x="55" y="60" class="h">🧭 Question 3 · Three-page mini-site</text>
+<rect class="n" x="75" y="185" width="260" height="130" rx="18"/><text x="205" y="232" text-anchor="middle" class="s">🏠 Home</text><text x="205" y="267" text-anchor="middle" class="p">index.html</text>
+<rect class="n" x="420" y="185" width="260" height="130" rx="18"/><text x="550" y="232" text-anchor="middle" class="s">💻 Web Development</text><text x="550" y="267" text-anchor="middle" class="p">webdevelopment.html</text>
+<rect class="n" x="765" y="185" width="260" height="130" rx="18"/><text x="895" y="232" text-anchor="middle" class="s">🎨 Web Design</text><text x="895" y="267" text-anchor="middle" class="p">webdesign.html</text>
+<path class="a" d="M335 215H420"/><path class="a" d="M420 285H335"/>
+<path class="a" d="M680 215H765"/><path class="a" d="M765 285H680"/>
+<path class="a" d="M205 315V390H895V315"/><path class="a" d="M895 185V105H205V185"/>
+<text x="377" y="196" text-anchor="middle" class="p">relative href</text><text x="723" y="196" text-anchor="middle" class="p">relative href</text>
+<text x="550" y="424" text-anchor="middle" class="p">Each page provides links to the other two pages.</text>
+</svg>
