@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Private vulnerability reporting
+    url: https://github.com/Brajesh31/Core-HTML-Assignment/security/advisories/new
+    about: Report security issues privately. Do not post secrets in public.
+  - name: 📚 Documentation hub
+    url: https://github.com/Brajesh31/Core-HTML-Assignment/tree/main/docs
+    about: Browse the project guides before creating an issue.
