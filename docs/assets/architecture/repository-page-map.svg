@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Core HTML assignment page map</title>
+<desc id="desc">Diagram showing eight independent HTML question documents and the three linked pages that compose Question 3.</desc>
+<defs>
+<style>.head{font:700 30px Arial;fill:#0f172a}.sub{font:700 20px Arial;fill:#0f172a}.body{font:16px Arial;fill:#334155}.node{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.mini{fill:#ecfeff;stroke:#0891b2;stroke-width:2}.line{stroke:#64748b;stroke-width:3;fill:none}</style>
+<marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#64748b"/></marker>
+</defs>
+<rect width="1200" height="760" rx="24" fill="#f8fafc"/>
+<text x="55" y="64" class="head">🗂️ Assignment page inventory</text>
+<rect x="430" y="100" width="340" height="65" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="600" y="140" text-anchor="middle" class="sub">Core HTML Assignment</text>
+<path class="line" d="M600 165V205M120 205H1080M120 205V240M360 205V240M600 205V240M840 205V240M1080 205V240"/>
+<g>
+<rect class="node" x="45" y="240" width="150" height="82" rx="12"/><text x="120" y="274" text-anchor="middle" class="sub">Q1</text><text x="120" y="300" text-anchor="middle" class="body">Text formatting</text>
+<rect class="node" x="285" y="240" width="150" height="82" rx="12"/><text x="360" y="274" text-anchor="middle" class="sub">Q2</text><text x="360" y="300" text-anchor="middle" class="body">Hyperlinks</text>
+<rect class="node" x="525" y="240" width="150" height="82" rx="12"/><text x="600" y="274" text-anchor="middle" class="sub">Q3</text><text x="600" y="300" text-anchor="middle" class="body">Mini-site</text>
+<rect class="node" x="765" y="240" width="150" height="82" rx="12"/><text x="840" y="274" text-anchor="middle" class="sub">Q4</text><text x="840" y="300" text-anchor="middle" class="body">HTML tags</text>
+<rect class="node" x="1005" y="240" width="150" height="82" rx="12"/><text x="1080" y="274" text-anchor="middle" class="sub">Q5-Q8</text><text x="1080" y="300" text-anchor="middle" class="body">Lists / tables</text>
+</g>
+<path class="line" d="M600 322V390M600 390H300V430M600 390V430M600 390H900V430" marker-end="url(#arr)"/>
+<rect class="mini" x="190" y="430" width="220" height="92" rx="14"/><text x="300" y="466" text-anchor="middle" class="sub">Home</text><text x="300" y="494" text-anchor="middle" class="body">question3/index.html</text>
+<rect class="mini" x="490" y="430" width="220" height="92" rx="14"/><text x="600" y="466" text-anchor="middle" class="sub">Web Development</text><text x="600" y="494" text-anchor="middle" class="body">webdevelopment.html</text>
+<rect class="mini" x="790" y="430" width="220" height="92" rx="14"/><text x="900" y="466" text-anchor="middle" class="sub">Web Design</text><text x="900" y="494" text-anchor="middle" class="body">webdesign.html</text>
+<path class="line" d="M410 476H490M710 476H790" marker-end="url(#arr)"/>
+<path class="line" d="M790 510H710M490 510H410" marker-end="url(#arr)"/>
+<text x="600" y="615" text-anchor="middle" class="body">Q1, Q2, Q4, Q5, Q6, Q7, and Q8 are standalone HTML documents.</text>
+<text x="600" y="650" text-anchor="middle" class="body">Question 3 contains the only multi-page relative-link navigation flow.</text>
+</svg>
