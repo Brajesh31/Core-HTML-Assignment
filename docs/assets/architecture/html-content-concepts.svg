@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630" role="img" aria-labelledby="title desc">
+<title id="title">HTML concepts demonstrated by the assignment</title>
+<desc id="desc">Diagram groups HTML exercise topics into text semantics, hyperlinks, page navigation, lists, and tables.</desc>
+<defs><style>.h{font:700 28px Arial;fill:#0f172a}.t{font:700 18px Arial;fill:#0f172a}.p{font:15px Arial;fill:#334155}.c1{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.c2{fill:#ecfeff;stroke:#0891b2;stroke-width:2}.c3{fill:#f5f3ff;stroke:#7c3aed;stroke-width:2}.c4{fill:#f0fdf4;stroke:#16a34a;stroke-width:2}.c5{fill:#fff7ed;stroke:#ea580c;stroke-width:2}</style></defs>
+<rect width="1120" height="630" rx="24" fill="#f8fafc"/>
+<text x="55" y="60" class="h">🧠 HTML learning concept map</text>
+<g>
+<rect class="c1" x="60" y="115" width="300" height="180" rx="18"/><text x="90" y="155" class="t">✍️ Text semantics · Q1</text><text x="90" y="196" class="p">strong · em · i · u · mark</text><text x="90" y="226" class="p">sup · sub · small · del</text>
+<rect class="c2" x="410" y="115" width="300" height="180" rx="18"/><text x="440" y="155" class="t">🔗 Navigation · Q2/Q3</text><text x="440" y="196" class="p">a · href · nav · header</text><text x="440" y="226" class="p">relative page links</text>
+<rect class="c3" x="760" y="115" width="300" height="180" rx="18"/><text x="790" y="155" class="t">🏷️ Elements · Q4</text><text x="790" y="196" class="p">HTML tag names and purpose</text><text x="790" y="226" class="p">ordered list examples</text>
+<rect class="c4" x="230" y="365" width="300" height="180" rx="18"/><text x="260" y="405" class="t">📚 Lists · Q5/Q7</text><text x="260" y="446" class="p">dl · dt · dd</text><text x="260" y="476" class="p">ul · ol · li · nested items</text>
+<rect class="c5" x="590" y="365" width="300" height="180" rx="18"/><text x="620" y="405" class="t">📊 Tables · Q6/Q8</text><text x="620" y="446" class="p">table · caption · th · td</text><text x="620" y="476" class="p">rowspan · colspan</text>
+</g>
+</svg>
