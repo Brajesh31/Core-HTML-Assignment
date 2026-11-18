@@ -1,0 +1,44 @@
+name: "✨ Learning improvement"
+description: Suggest a useful improvement to the HTML assignment repository.
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Learning need
+      description: What would this help a learner understand?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Documentation
+        - Validation tooling
+        - Architecture diagram
+        - Accessibility guidance
+        - New separate learning example
+        - Original assignment source correction
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope acknowledgement
+      options:
+        - label: I understand original assignment HTML and screenshots remain protected unless separately approved.
+          required: true
