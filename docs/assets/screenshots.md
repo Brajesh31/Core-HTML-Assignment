@@ -6,7 +6,7 @@ The following PNG images are already tracked in the original assignment director
 |---|---|
 | Q1 | [question1.png](../../Assignment_2_Core%20html/screenshot/question1.png) |
 | Q2 | [question2.png](../../Assignment_2_Core%20html/screenshot/question2.png) |
-| Q3 | [1 (1).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(1).png), [1 (2).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(2).png), [1 (3).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(3).png) |
+| Q3 | [1 (1).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(1).png>), [1 (2).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(2).png>), [1 (3).png](../../Assignment_2_Core%20html/screenshot/question3/1%20(3).png>) |
 | Q4 | [question4.png](../../Assignment_2_Core%20html/screenshot/question4.png) |
 | Q5 | [question5.png](../../Assignment_2_Core%20html/screenshot/question5.png) |
 | Q6 | [question6.png](../../Assignment_2_Core%20html/screenshot/question6.png) |
