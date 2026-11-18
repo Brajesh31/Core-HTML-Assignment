@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Core HTML Assignment</title>
+<desc id="desc">Illustrated banner for an eight-question HTML fundamentals assignment, showing markup brackets, page outline, lists, and a data table.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101c3a"/><stop offset="1" stop-color="#164e63"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<circle cx="1030" cy="78" r="130" fill="#fff" opacity=".04"/>
+<circle cx="1130" cy="290" r="190" fill="#fff" opacity=".035"/>
+<path d="M70 76h12M70 76v208M70 284h12" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+<text x="115" y="130" fill="#bae6fd" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="4">FOUNDATIONS OF THE WEB</text>
+<text x="112" y="205" fill="#fff" font-family="Arial,sans-serif" font-size="66" font-weight="800">Core HTML</text>
+<text x="112" y="275" fill="#fff" font-family="Arial,sans-serif" font-size="66" font-weight="800">Assignment</text>
+<text x="116" y="320" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="20">8 exercises · Semantic markup · Links · Lists · Tables</text>
+<g transform="translate(805 62)">
+  <rect x="0" y="0" width="300" height="238" rx="18" fill="#f8fafc"/>
+  <rect x="0" y="0" width="300" height="42" rx="18" fill="#e2e8f0"/>
+  <circle cx="24" cy="21" r="6" fill="#f87171"/><circle cx="46" cy="21" r="6" fill="#fbbf24"/><circle cx="68" cy="21" r="6" fill="#34d399"/>
+  <path d="M32 86l-18 22 18 22M72 86l18 22-18 22" fill="none" stroke="#0284c7" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M116 84h128M116 108h96M116 132h115" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="30" y="162" width="240" height="48" rx="8" fill="#e0f2fe"/>
+  <path d="M30 179h240M105 162v48M185 162v48" stroke="#0284c7" stroke-width="2"/>
+</g>
+</svg>
