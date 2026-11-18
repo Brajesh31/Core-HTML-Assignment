@@ -8,7 +8,7 @@ Welcome to the documentation hub for **Core-HTML-Assignment**. The repository co
 
 | Area | Guides |
 |---|---|
-| 📌 Project | [Overview](project-overview.md), [objectives](project-objectives.md), [scope and limitations](scope-and-limitations.md), [learning outcomes](learning-outcomes.md), [FAQ](faq.md), [glossary](html-concepts.md). |
+| 📌 Project | [Overview](project-overview.md), [objectives](project-objectives.md), [scope and limitations](scope-and-limitations.md), [learning outcomes](learning-outcomes.md), [glossary](html-concepts.md). |
 | 🖥️ Pages | [Page-by-page documentation](page-documentation.md), [navigation structure](navigation-structure.md), [content structure](content-structure.md). |
 | 🏛️ Architecture | [Architecture catalog](architecture/README.md), [page map](architecture/page-map.md), [content model](architecture/content-model.md), [navigation flow](architecture/navigation-flow.md). |
 | ♿ Quality | [Accessibility review](accessibility.md), [testing](testing.md), [validation strategy](validation-strategy.md), [known issues](known-issues.md). |
